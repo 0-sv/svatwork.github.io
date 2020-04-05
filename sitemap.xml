@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://svatwork.github.io/posts/</loc>
+    <lastmod>2020-04-05T15:45:25+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svatwork.github.io/posts/cka-thoughts/</loc>
+    <lastmod>2020-04-05T15:45:25+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://svatwork.github.io/tags/career/</loc>
     <lastmod>2020-04-05T13:22:10+07:00</lastmod>
   </url>
@@ -14,11 +24,6 @@
   
   <url>
     <loc>https://svatwork.github.io/tags/experience/</loc>
-    <lastmod>2020-04-05T13:22:10+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://svatwork.github.io/posts/</loc>
     <lastmod>2020-04-05T13:22:10+07:00</lastmod>
   </url>
   
