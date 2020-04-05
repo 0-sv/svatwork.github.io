@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on sv@work</title>
-    <link>https://example.com/tags/</link>
+    <link>https://svatwork.github.io/tags/</link>
     <description>Recent content in Tags on sv@work</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sun, 05 Apr 2020 13:22:10 +0700</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://svatwork.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>career</title>
-      <link>https://example.com/tags/career/</link>
+      <link>https://svatwork.github.io/tags/career/</link>
       <pubDate>Sun, 05 Apr 2020 13:22:10 +0700</pubDate>
       
-      <guid>https://example.com/tags/career/</guid>
+      <guid>https://svatwork.github.io/tags/career/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cv</title>
-      <link>https://example.com/tags/cv/</link>
+      <link>https://svatwork.github.io/tags/cv/</link>
       <pubDate>Sun, 05 Apr 2020 13:22:10 +0700</pubDate>
       
-      <guid>https://example.com/tags/cv/</guid>
+      <guid>https://svatwork.github.io/tags/cv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>experience</title>
-      <link>https://example.com/tags/experience/</link>
+      <link>https://svatwork.github.io/tags/experience/</link>
       <pubDate>Sun, 05 Apr 2020 13:22:10 +0700</pubDate>
       
-      <guid>https://example.com/tags/experience/</guid>
+      <guid>https://svatwork.github.io/tags/experience/</guid>
       <description></description>
     </item>
     
