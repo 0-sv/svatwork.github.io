@@ -1,0 +1,400 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on sv@work</title>
+		<link>https://example.com/posts/</link>
+		<description>Recent content in Posts on sv@work</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+		<lastBuildDate>Sun, 05 Apr 2020 13:22:10 +0700</lastBuildDate>
+		<atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>What Lessons Did I Learn In My Career So Far</title>
+			<link>https://example.com/posts/career-lessons/</link>
+			<pubDate>Sun, 05 Apr 2020 13:22:10 +0700</pubDate>
+			
+			<guid>https://example.com/posts/career-lessons/</guid>
+			<description>I&amp;rsquo;ve started doing freelance cloud engineering since the end of 2018. During software engineering at my first full-time employer, I was invited to work on a start-up. At one point the money ran out, so I went to look for a new employer in 2019. There, I worked on system administration during the time DevOps and Cloud were becoming trending.
+I took a break for a while to travel, and had some time to think about what direction to head.</description>
+			<content type="html"><![CDATA[<p>I&rsquo;ve started doing freelance cloud engineering since the end of 2018. During software engineering at my first full-time employer, I was invited to work on a start-up. At one point the money ran out, so I went to look for a new employer in 2019. There, I worked on system administration during the time DevOps and Cloud were becoming trending.</p>
+<p>I took a break for a while to travel, and had some time to think about what direction to head. I think it&rsquo;s a good practice to think about the direction you want to go in before you put in the work, because you can get anywhere you want but you might end up somewhere you don&rsquo;t like.</p>
+<p>Now, in April 2020, I feel comfortable going into cloud engineering knowing that it&rsquo;s the right choice for the upcoming years.</p>
+<p>Here&rsquo;s a recap of my project experience:</p>
+<h2 id="software-engineer-at-ellips">Software Engineer at Ellips</h2>
+<p>It was quite exciting getting hired as a software engineer since I majored in law and did computer science on the side. Nevertheless, my C++ implementation of binary search was enough to have them excited as well. The projects I worked on:</p>
+<ul>
+<li>Working in Agile Scrum;</li>
+<li>Writing C# front-end in a model-view-controller pattern;</li>
+<li>Writing C++/Lua (computer vision) back-end;</li>
+<li>Automated deployment of TFS build agents.</li>
+</ul>
+<h2 id="data-architect-at-hydrotronics">Data Architect at Hydrotronics</h2>
+<p>Hydrotronics had an interesting proposition as a B2B SaaS provider with spa automation back-end. I also got back into consulting after failing running a company two years ago.</p>
+<p>For this project, I would be in charge of data engineering on AWS. We worked in a team of five; everyone had loads of experience and high expectations of me. Moreover, there were technical barriers between the team members since everyone knew their own niche well but it was hard to figure out how one part would fit in the other.</p>
+<p>If we could repeat the project, I would bargain for getting investments before developing the product. Then it wouldn&rsquo;t be necessary to pay for the development of the product out-of-pocket. Establishing product/market fit before developing the project is a great way to attract capital. In the end, the assumption that this model would sell itself was only the &ldquo;logical conclusion&rdquo; of how much this product would be in demand. Needless to say, a better way would have been to base that decision on data.</p>
+<p>Like I mentioned, the project didn&rsquo;t work out for me but it&rsquo;s great knowing I was an asset in the following projects:</p>
+<ul>
+<li>Making the architectural design for data engineering on AWS;</li>
+<li>Successfully applying for the Dutch subsidy grant for innovation;</li>
+<li>Financial data modelling for attracting capital.</li>
+</ul>
+<h2 id="systems-engineer-at-acc-ict">Systems Engineer at ACC ICT</h2>
+<p>In May 2019 I was desperate for money. I was still doing a breadth-first-search of sorts, where I would rather learn wide knowledge rather than deep knowledge. So after working at an enterprise shop and a start-up, doing a whole other aspect of IT called &ldquo;system administration&rdquo; seemed quite interesting. Furthermore, after keeping up with studies I began to feel more comfortable writing code and making decisions. You could tell by the following projects:</p>
+<ul>
+<li>CI/CD implementation in Jenkins/Ansible for configuring Kubernetes clusters;</li>
+<li>CI/CD implementation in Jenkins/Ansible for deploying microservices.</li>
+</ul>
+<p>I figured that as a private cloud provider with WYSIWYG Kubernetes clusters, there should at least be automation in place so we could roll out Kubernetes clusters in a decent amount of time. It would be a strange proposition to perform these manually, since there are loads of cloud offering where you can roll out your own cluster with a few clicks.</p>
+<h2 id="taking-a-break">Taking A Break</h2>
+<p>For my break starting in December 2019, I flew to Tasmania. I&rsquo;ve explored the island and that was enough Australia for me. I spent a month in Bali where I studied for AWS CCP (besides having fun of course).</p>
+<p>Now, I knew that I wanted to come back to Hanoi because two years ago when I studied CS in Singapore I spent some time in Vietnam. So it seemed like the perfect choice, and I flew to Hanoi in February. I was planning to start teaching English, but those plans have been cut short for now due to the Corona virus. At least while sitting at home, I had time to study and achieve the CNCF CKA.</p>
+<h2 id="company-attempt-number-three">Company Attempt Number Three</h2>
+<p>In January 2020 I also registered the company &ldquo;sv@work&rdquo; in the Dutch Chamber of Commerce. In the next two months, I signed on two clients who were my previous employers. One employer is ACC ICT and the other is a law firm specializing in health care law.</p>
+<p>It took me until April to realize, after studying about freelancing and entrepreneurship, that it&rsquo;s quite important to select a niche. You see, people only think about other people in terms of their top capability. Like in medieval times, you know Joe is a proper blacksmith and Maria does excellent clothes repair.</p>
+<p>Besides that, to actually help a client you should already have the solution in place. The idea is to know one solution so well, you could perform it with your eyes closed. (This solution should of course have product/market fit, ie. there&rsquo;s a clear demand for this kind of solution. This lack of information is probably the hardest part about proper execution of a starting company. Now for me, as a developer, there shouldn&rsquo;t be a lack of demand for cloud engineering solutions.)</p>
+<p>This is one of my mistakes for this year. I assumed that it would be enough to sell a client on my time. But no, you can only help a client with some arbitrary problem if and only if you have a system in place for solving that problem.</p>
+<p>Let&rsquo;s assume you know one solution well. The next step would be to find your clients: where are they? Obviously, in the digital era it&rsquo;s become easier to match supply and demand. Let&rsquo;s say they&rsquo;re on an arbitrary social media platform.</p>
+<p>We want to have a conversation with those people; now for me, this is where the focus will be in 2020. As an employer, you&rsquo;d ideally have contractors that have their area of expertise with the lowest possible risk to execute on the company vision. For me, there&rsquo;s a lack of demonstrating that value, so I might have to go find a job after all. I found out about this while doing some interviews for contracting positions.</p>
+<p>Anyway, while I find a solution to pay the bills, in the meantime, if I want to succeed as a freelancer, I should demonstrate value by writing articles about my technology stack and subsequent projects.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Yet Another Cka Study Guide</title>
+			<link>https://example.com/posts/yet-another-cka-study-guide/</link>
+			<pubDate>Thu, 05 Mar 2020 12:46:08 +0700</pubDate>
+			
+			<guid>https://example.com/posts/yet-another-cka-study-guide/</guid>
+			<description>As of March 2020 there are loads of resources to study for CKA (Certified Kubernetes Administrator). A lot of people have compiled their tips and tricks, created exercise repositories and applications, compiled yet more lists of additional resources, etc.
+I&amp;rsquo;d like to contribute by sharing my resource list. This is not my original work, and you will find all sources in the &amp;ldquo;Source index&amp;rdquo; paragraph. I&amp;rsquo;ve scheduled the test for next month and I&amp;rsquo;ll report later to share my own opinion about the test, if there&amp;rsquo;s anything I can contribute.</description>
+			<content type="html"><![CDATA[<p>As of March 2020 there are loads of resources to study for CKA (Certified Kubernetes Administrator). A lot of people have compiled their tips and tricks, created exercise repositories and applications, compiled yet more lists of additional resources, etc.</p>
+<p>I&rsquo;d like to contribute by sharing my resource list. This is not my original work, and you will find all sources in the &ldquo;Source index&rdquo; paragraph. I&rsquo;ve scheduled the test for next month and I&rsquo;ll report later to share my own opinion about the test, if there&rsquo;s anything I can contribute. This might be because of the upgrade from Kubernetes 1.16 to 1.17.</p>
+<h2 id="exam-objectives-httpsgithubcomwalidshaarikubernetes-certified-administrator">Exam Objectives (<a href="https://github.com/walidshaari/Kubernetes-Certified-Administrator">https://github.com/walidshaari/Kubernetes-Certified-Administrator</a>)</h2>
+<p>These are the exam objectives you review and understand in order to pass the test.</p>
+<p><a href="https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_V1.17.pdf">CNCF Exam Curriculum repository</a></p>
+<h3 id="core-conceptshttpskubernetesiodocsconcepts-19"><a href="https://kubernetes.io/docs/concepts/">Core Concepts</a> 19%</h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.16/">Understand the Kubernetes API primitives</a>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/">concepts: Kubernetes Objects</a></li>
+<li><input disabled="" type="checkbox"> youtube: <a href="https://www.youtube.com/watch?v=zeS6OyDoy78">Kubernetes Webinar Series - Kubernetes Architecture 101</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/overview/components/">Understand the Kubernetes cluster architecture</a>
+<ul>
+<li><input disabled="" type="checkbox"> youtube: <a href="https://www.youtube.com/watch?v=WwBdNXt6wO4">A Technical Overview of Kubernetes (CoreOS Fest 2015) by Brendan Burns</a>
+<ul>
+<li><em>Coupled applications is like driving a truck with a hangar (visualize it)</em></li>
+<li><em>DevOps got the idea right but not the implementation: it&rsquo;s more like &ldquo;application&rdquo; ops since we now have four layers: hardware ops, kernel/os ops, cluster ops and application ops.</em></li>
+<li><em>Idea of declarative state with simple primitives (CRUD), not a &lsquo;complex&rsquo;  state machine.</em>
+<ul>
+<li><em>Reconciliation loop</em></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/services-networking/service/">Understand Services and other network primitives</a>
+<ul>
+<li><input disabled="" type="checkbox"> youtube: <a href="https://www.youtube.com/watch?v=0Omvgd7Hg1I">Life of a Packet [I] - Michael Rubin, Google</a></li>
+<li><input disabled="" type="checkbox"> youtube: <a href="https://www.youtube.com/watch?v=y2bhV81MfKQ">The ins and outs of networking in Google Container Engine and Kubernetes (Google Cloud Next &lsquo;17)</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="installation-configuration-and-validationhttpsgithubcomkelseyhightowerkubernetes-the-hard-waytreef9486b081f8f54dd63a891463f0b0e783d084307-12"><a href="https://github.com/kelseyhightower/kubernetes-the-hard-way/tree/f9486b081f8f54dd63a891463f0b0e783d084307">Installation, Configuration and Validation</a> 12%</h3>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> Design a Kubernetes cluster</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/">Install Kubernetes masters and nodes, including the use of TLS bootstrapping</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/">Configure secure cluster communications</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/admin/high-availability/">Configure a Highly-Available Kubernetes cluster</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/getting-started-guides/binary_release/#prebuilt-binary-release">Know where to get the Kubernetes release binaries</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/f9486b081f8f54dd63a891463f0b0e783d084307/docs/01-infrastructure-gcp.md">Provision underlying infrastructure to deploy a Kubernetes cluster</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/cluster-administration/networking/">Choose a network solution</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Choose your Kubernetes infrastructure configuration</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Run end-to-end tests on your cluster</p>
+<ul>
+<li>
+<p>Some simple commands will cover most cases:</p>
+<p>$ kubectl cluster-info
+$ kubectl get nodes
+$ kubectl get componentstatuses
+$ kubectl get pods -o wide &ndash;show-labels &ndash;all-namespaces
+$ kubectl get svc  -o wide &ndash;show-labels &ndash;all-namespaces</p>
+</li>
+</ul>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> For more advanced end to end testing, which may not be covered on the exam, also see:</p>
+<ul>
+<li><a href="https://github.com/kubernetes/community/blob/master/contributors/devel/sig-testing/e2e-tests.md">End-To-End Testing in Kubernetes</a></li>
+<li><a href="https://github.com/cncf/k8s-conformance/blob/master/instructions.md">Using CNCF k8s conformance</a></li>
+<li><a href="https://scanner.heptio.com/">Heptio Sonobuoy Scanner</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="security-12">Security 12%</h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/">Securing a kubernetes cluster</a>
+<ul>
+<li><input disabled="" type="checkbox"> youtube: <a href="https://www.youtube.com/watch?v=YRR-kZub0cA">Building for Trust: How to Secure Your Kubernetes Cluster [I] - Alexander Mohr &amp; Jess Frazelle</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/admin/authorization/rbac/">Know how to configure authentication and authorization</a>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/admin/accessing-the-api/">Access the api</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/reference/access-authn-authz/authentication/">Authentication</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/admin/authorization/rbac/">Authorization with RBAC</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/admin/admission-controllers/">Admission Control</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> [Understand Kubernetes security primitives]
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/policy/pod-security-policy/">Pod Security Policy</a>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://github.com/kubernetes/examples/blob/master/staging/podsecuritypolicy/rbac/README.md">PSP and RBAC</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/administer-cluster/declare-network-policy/">Know to configure network policies</a>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://ahmet.im/blog/kubernetes-network-policy/">Blog: Kubernetes network policy</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://www.katacoda.com/projectcalico/scenarios/calico">Katacoda Calico</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/">Create and manage TLS certificates for cluster components</a></li>
+<li><input disabled="" type="checkbox"> Work with images securely</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/configure-pod-container/security-context/">Define security contexts</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/configuration/secret/">Secure persistent key value store</a></li>
+<li><input disabled="" type="checkbox"> Work with role-based access control</li>
+</ul>
+<h3 id="networkinghttpskubernetesiodocsconceptscluster-administrationnetworking-11"><a href="https://kubernetes.io/docs/concepts/cluster-administration/networking/">Networking</a> 11%</h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/cluster-administration/networking/">Understand the networking configuration on the cluster nodes</a></li>
+<li><input disabled="" type="checkbox"> Understand Pod networking concepts
+<ul>
+<li><input disabled="" type="checkbox"> youtube: <a href="https://www.youtube.com/watch?v=y2bhV81MfKQ">The ins and outs of networking in Google Container Engine and Kubernetes (Google Cloud Next &lsquo;17)</a></li>
+<li><input disabled="" type="checkbox"> youtube: <a href="https://www.youtube.com/watch?v=WwQ62OyCNz4">Networking with Kubernetes</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://speakerdeck.com/thockin/illustrated-guide-to-kubernetes-networking">Illustrated Guide To Kubernetes Networking by Tim Hockin</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> Understand service networking
+<ul>
+<li><input disabled="" type="checkbox"> youtube: <a href="https://www.youtube.com/watch?v=0Omvgd7Hg1I">Life of a Packet [I] - Michael Rubin, Google</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/">Deploy and configure network load balancer</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/services-networking/ingress/">Know how to use Ingress rules</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/">Know how to configure and use the cluster DNS</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://github.com/containernetworking/cni">Understand CNI</a>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="http://www.dasblinkenlichten.com/understanding-cni-container-networking-interface/">More information on CNI</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="cluster-maintenance-11">Cluster Maintenance 11%</h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/getting-started-guides/ubuntu/upgrades/">Understand Kubernetes cluster upgrade process</a>
+<ul>
+<li><input disabled="" type="checkbox"> Best resource upgrade is to watch <a href="https://youtu.be/x9doB5eJWgQ">TGI Kubernetes 011: Upgrading to 1.8 with kubeadm</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://cloud.google.com/container-engine/docs/clusters/upgrade">Facilitate operating system upgrades</a> #need review to make it more platform agnostic</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/getting-started-guides/ubuntu/backups/">Implement backup and restore methodologies</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd">Etcd management/backups/restore</a></li>
+</ul>
+<h3 id="troubleshootinghttpskubernetesiodocstasksdebug-application-clustertroubleshooting-10"><a href="https://kubernetes.io/docs/tasks/debug-application-cluster/troubleshooting/">Troubleshooting</a> 10%</h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/debug-application-cluster/determine-reason-pod-failure/">Troubleshoot application failure</a>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/debug-application-cluster/debug-application-introspection/">Application Introspection and Debugging</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/debug-application-cluster/debug-service/">Services</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/debug-application-cluster/debug-cluster/">Troubleshoot control plane failure</a>
+<ul>
+<li><input disabled="" type="checkbox"> youtube <a href="https://www.youtube.com/watch?v=U1zR0eDQRYQ">Kubernetes Day 2: Cluster Operations [I] - Brandon Philips, CoreOS</a></li>
+<li><input disabled="" type="checkbox"> Safaribooksonline: <a href="https://www.safaribooksonline.com/library/view/oscon-2016-video/9781491965153/video246982.html">https://www.safaribooksonline.com/library/view/oscon-2016-video/9781491965153/video246982.html</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/debug-application-cluster/debug-cluster/">Troubleshoot worker node failure</a></li>
+<li><input disabled="" type="checkbox"> Troubleshoot networking</li>
+</ul>
+<h3 id="storagehttpskubernetesiodocsconceptsstoragevolumes-7"><a href="https://kubernetes.io/docs/concepts/storage/volumes/">Storage</a> 7%</h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/">Understand persistent volumes and know how to create them</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/#access-modes">Understand access modes for volumes</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims">Understand persistent volume claims primitive</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/storage/volumes/#types-of-volumes">Understand Kubernetes storage objects</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-volume-storage/">Know how to configure applications with persistent storage</a></li>
+</ul>
+<h3 id="application-lifecycle-management-8">Application Lifecycle Management 8%</h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/">Understand Deployments and how to perform rolling updates and rollbacks</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/cluster-administration/manage-deployment/">Know various ways to configure applications</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/cluster-administration/manage-deployment/#scaling-your-application">Know how to scale applications</a></li>
+<li><input disabled="" type="checkbox"> Understand the primitives necessary to create a self-healing application</li>
+</ul>
+<h3 id="scheduling-5">Scheduling 5%</h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/">Use label selectors to schedule Pods</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/">Understand the role of DaemonSets</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/administer-cluster/memory-default-namespace/">Understand how resource limits can affect Pod scheduling</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/administer-cluster/configure-multiple-schedulers/">Understand how to run multiple schedulers and how to configure Pods to use them</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/administer-cluster/static-pod/">Manually schedule a pod without a scheduler</a>
+If you require a pod to start on a specific node, you can specify this in POD spec.nodeName, that is what DaemonSets do.</li>
+<li><input disabled="" type="checkbox"> <a href="https://stackoverflow.com/questions/28857993/how-does-kubernetes-scheduler-work/28874577#28874577">Display scheduler events</a>
+/var/log/kube-scheduler.log on the control/master node
+or use <code>kubectl describe</code> as in</li>
+<li><input disabled="" type="checkbox"> $kubectl describe pods <!-- raw HTML omitted -->  | grep -A7 ^Events</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/administer-cluster/configure-multiple-schedulers/">Know how to configure the Kubernetes scheduler</a></li>
+</ul>
+<h3 id="loggingmonitoringhttpskubernetesiodocsconceptscluster-administrationlogging-5"><a href="https://kubernetes.io/docs/concepts/cluster-administration/logging/">Logging/Monitoring</a> 5%</h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://www.datadoghq.com/blog/monitoring-kubernetes-era/">Monitoring Kubernetes</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/debug-application-cluster/resource-usage-monitoring/">Understand how to monitor all cluster components</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/reference/kubectl/cheatsheet/#interacting-with-running-pods">Pod and Node metrics</a></li>
+<li><input disabled="" type="checkbox"> Understand how to monitor applications</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/debug-application-cluster/debug-cluster/#looking-at-logs">Manage cluster component logs</a>
+<ul>
+<li><input disabled="" type="checkbox"> Master
+<ul>
+<li>/var/log/kube-apiserver.log - API Server, responsible for serving the API</li>
+<li>/var/log/kube-scheduler.log - Scheduler, responsible for making scheduling decisions</li>
+<li>/var/log/kube-controller-manager.log - Controller that manages replication controllers</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> Worker Nodes
+<ul>
+<li>/var/log/kubelet.log - Kubelet, responsible for running containers on the node</li>
+<li>/var/log/kube-proxy.log - Kube Proxy, responsible for service load balancing</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#logs">Manage application logs</a></li>
+</ul>
+<h3 id="exercises">Exercises</h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://linuxacademy.com/course/cloud-native-certified-kubernetes-administrator-cka/">https://linuxacademy.com/course/cloud-native-certified-kubernetes-administrator-cka/</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://github.com/David-VTUK/CKA-StudyGuide">https://github.com/David-VTUK/CKA-StudyGuide</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://github.com/ShubhamTatvamasi/kubernetes-practice-tests">https://github.com/ShubhamTatvamasi/kubernetes-practice-tests</a></li>
+<li><input disabled="" type="checkbox"> <a href="http://devnetstack.com/certified-kubernetes-administrator-exam-study-guide/">http://devnetstack.com/certified-kubernetes-administrator-exam-study-guide/</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://github.com/kelseyhightower/kubernetes-the-hard-way">https://github.com/kelseyhightower/kubernetes-the-hard-way</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://github.com/arush-sal/cka-practice-environment">https://github.com/arush-sal/cka-practice-environment</a></li>
+</ul>
+<h3 id="tips">Tips</h3>
+<ul>
+<li>
+<p>It’s 3 hours long</p>
+</li>
+<li>
+<p>24 questions</p>
+</li>
+<li>
+<p>Pass mark is 74%</p>
+</li>
+<li>
+<p>Completely practical, no theory</p>
+</li>
+<li>
+<p>All on the command line</p>
+</li>
+<li>
+<p>You take the exam at home,</p>
+<ul>
+<li>on your own computer.</li>
+</ul>
+</li>
+<li>
+<p>Clear your desk of everything</p>
+<ul>
+<li>Drinks, books, pens, cuddly toys.</li>
+</ul>
+</li>
+<li>
+<p>You can have 2 browser tabs open</p>
+<ol>
+<li>The actual exam</li>
+<li><a href="https://kubernetes.io/docs/">The official Kubernetes docs</a> site</li>
+</ol>
+</li>
+<li>
+<p>Questions are visibly weighted</p>
+<ul>
+<li>with a percentage</li>
+</ul>
+</li>
+<li>
+<p>The harder the question, the more points</p>
+</li>
+<li>
+<p>source &lt;(kubectl completion bash)</p>
+</li>
+<li>
+<p>k = &lsquo;kubectl&rsquo;
+kgp = &lsquo;kubectl get pods&rsquo;
+kgs = &lsquo;kubectl get svc&rsquo;
+kgc = &lsquo;kubectl get componentstatus&rsquo;</p>
+</li>
+<li>
+<p>Start every question with an example from the docs and update it to answer your question</p>
+</li>
+<li>
+<p>Learn to create the Kubernetes objects FAST</p>
+</li>
+<li>
+<p>Have a small amount of knowledge of how to SysAdmin a Kubernetes cluster</p>
+</li>
+<li>
+<p>Use the docs site search functionality. A lot.</p>
+</li>
+<li>
+<p>Prioritise your questions</p>
+</li>
+<li>
+<p>Use the command line kubectl explain will help you during the exam.</p>
+</li>
+<li>
+<p>Carefully study the topic of</p>
+<ul>
+<li><a href="https://kubernetes.io/docs/tasks/administer-cluster/static-pod/">Static Pods</a>, this will help you very well when troubleshooting the non-working Kubernetes components.</li>
+<li><a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet-tls-bootstrapping/">TLS Bootstrapping</a>. From my point of view the most voluminous question on the exam. It seemed to me more difficult than Mumshad described in his course and in the practical tests.</li>
+</ul>
+</li>
+<li>
+<p>&ldquo;If you don’t have specific knowledge about container tecnologies and docker, read the O’Reilly’s book “<a href="http://shop.oreilly.com/product/0636920036142.do">Docker: Up &amp; Running</a>“, the exam doesn’t require specific knowledge about docker but, since Kubernetes is an orchestrator for containers, this is a needed base.&rdquo;</p>
+</li>
+<li>
+<p>&ldquo;IMHO the best book about k8s is “<strong><a href="https://www.manning.com/books/kubernetes-in-action">Kubernetes in Action</a></strong>” , it covers a lot of aspect about this software and it’s very detailed, you don’t need to read it from the beginning till the end, some chapters of the “part 3” are not required by the exam.&rdquo;</p>
+</li>
+</ul>
+<h1 id="source-index">Source index</h1>
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/10NltoF_6y3mBwUzQ4bcQLQfCE1BWSgUDcJXy-Qp2JEU/edit#gid=0">Kubernauts resources list</a></li>
+<li><a href="http://kubernetes.io">kubernetes.io</a> (&ldquo;Ensure you have the right version of Kubernetes documentation selected (e.g. v1.16 as of 20th Nov. 2019 exam) especially for API objects and annotations. This release removes several deprecated API&rsquo;s.&quot;)</li>
+</ul>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="Yet Another Cka Study Guide">
+<meta itemprop="description" content="As of March 2020 there are loads of resources to study for CKA (Certified Kubernetes Administrator). A lot of people have compiled their tips and tricks, created exercise repositories and applications, compiled yet more lists of additional resources, etc.
+I&rsquo;d like to contribute by sharing my resource list. This is not my original work, and you will find all sources in the &ldquo;Source index&rdquo; paragraph. I&rsquo;ve scheduled the test for next month and I&rsquo;ll report later to share my own opinion about the test, if there&rsquo;s anything I can contribute.">
+<meta itemprop="datePublished" content="2020-03-05T12:46:08&#43;07:00" />
+<meta itemprop="dateModified" content="2020-03-05T12:46:08&#43;07:00" />
+<meta itemprop="wordCount" content="1177">
+
+
+
+<meta itemprop="keywords" content="" /><meta property="og:title" content="Yet Another Cka Study Guide" />
+<meta property="og:description" content="As of March 2020 there are loads of resources to study for CKA (Certified Kubernetes Administrator). A lot of people have compiled their tips and tricks, created exercise repositories and applications, compiled yet more lists of additional resources, etc.
+I&rsquo;d like to contribute by sharing my resource list. This is not my original work, and you will find all sources in the &ldquo;Source index&rdquo; paragraph. I&rsquo;ve scheduled the test for next month and I&rsquo;ll report later to share my own opinion about the test, if there&rsquo;s anything I can contribute." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/posts/yet-another-cka-study-guide/" />
+<meta property="article:published_time" content="2020-03-05T12:46:08+07:00" />
+<meta property="article:modified_time" content="2020-03-05T12:46:08+07:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Yet Another Cka Study Guide"/>
+<meta name="twitter:description" content="As of March 2020 there are loads of resources to study for CKA (Certified Kubernetes Administrator). A lot of people have compiled their tips and tricks, created exercise repositories and applications, compiled yet more lists of additional resources, etc.
+I&rsquo;d like to contribute by sharing my resource list. This is not my original work, and you will find all sources in the &ldquo;Source index&rdquo; paragraph. I&rsquo;ve scheduled the test for next month and I&rsquo;ll report later to share my own opinion about the test, if there&rsquo;s anything I can contribute."/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>Yet Another Cka Study Guide</title>
+	<link rel="stylesheet" href="https://example.com/css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css" integrity="sha256-ZXvLevMRI+QVaxo9L/YKY2cX5U6tdPiCE2tRFM9ytV4=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp faster">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://example.com">sv@work</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="https://example.com/posts/">Posts</a>
+				<a href="https://example.com/about/">About</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="mailto:sv@a-t-work.nl" target="_blank" rel="noopener me" title="Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a><a href="https://www.linkedin.com/in/sebastiaan-verbeek-13792a182/" target="_blank" rel="noopener me" title="Linkedin"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a><a href="https://stackoverflow.com/users/8357826/sebastiaan-verbeek" target="_blank" rel="noopener me" title="Stackoverflow"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.913 16.041v6.848h17.599v-6.848M7.16 18.696h8.925M7.65 13.937l8.675 1.8M9.214 9.124l8.058 3.758M12.086 4.65l6.849 5.66M15.774 1.111l5.313 7.162"/></svg></a><a href="https://github.com/svatwork" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a><a href="https://www.facebook.com/sebastiaan.verbeek.37" target="_blank" rel="noopener me" title="Facebook"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://example.com/posts/">Posts</a></li>
+			<li><a href="https://example.com/about/">About</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Mar 5, 2020</span></div>
+				<h1>Yet Another Cka Study Guide</h1>
+			</header>
+			<div class="content">
+				<p>As of March 2020 there are loads of resources to study for CKA (Certified Kubernetes Administrator). A lot of people have compiled their tips and tricks, created exercise repositories and applications, compiled yet more lists of additional resources, etc.</p>
+<p>I&rsquo;d like to contribute by sharing my resource list. This is not my original work, and you will find all sources in the &ldquo;Source index&rdquo; paragraph. I&rsquo;ve scheduled the test for next month and I&rsquo;ll report later to share my own opinion about the test, if there&rsquo;s anything I can contribute. This might be because of the upgrade from Kubernetes 1.16 to 1.17.</p>
+<h2 id="exam-objectives-httpsgithubcomwalidshaarikubernetes-certified-administrator">Exam Objectives (<a href="https://github.com/walidshaari/Kubernetes-Certified-Administrator">https://github.com/walidshaari/Kubernetes-Certified-Administrator</a>)<a href="#exam-objectives-httpsgithubcomwalidshaarikubernetes-certified-administrator" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>These are the exam objectives you review and understand in order to pass the test.</p>
+<p><a href="https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_V1.17.pdf">CNCF Exam Curriculum repository</a></p>
+<h3 id="core-conceptshttpskubernetesiodocsconcepts-19"><a href="https://kubernetes.io/docs/concepts/">Core Concepts</a> 19%<a href="#core-conceptshttpskubernetesiodocsconcepts-19" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.16/">Understand the Kubernetes API primitives</a>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/">concepts: Kubernetes Objects</a></li>
+<li><input disabled="" type="checkbox"> youtube: <a href="https://www.youtube.com/watch?v=zeS6OyDoy78">Kubernetes Webinar Series - Kubernetes Architecture 101</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/overview/components/">Understand the Kubernetes cluster architecture</a>
+<ul>
+<li><input disabled="" type="checkbox"> youtube: <a href="https://www.youtube.com/watch?v=WwBdNXt6wO4">A Technical Overview of Kubernetes (CoreOS Fest 2015) by Brendan Burns</a>
+<ul>
+<li><em>Coupled applications is like driving a truck with a hangar (visualize it)</em></li>
+<li><em>DevOps got the idea right but not the implementation: it&rsquo;s more like &ldquo;application&rdquo; ops since we now have four layers: hardware ops, kernel/os ops, cluster ops and application ops.</em></li>
+<li><em>Idea of declarative state with simple primitives (CRUD), not a &lsquo;complex&rsquo;  state machine.</em>
+<ul>
+<li><em>Reconciliation loop</em></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/services-networking/service/">Understand Services and other network primitives</a>
+<ul>
+<li><input disabled="" type="checkbox"> youtube: <a href="https://www.youtube.com/watch?v=0Omvgd7Hg1I">Life of a Packet [I] - Michael Rubin, Google</a></li>
+<li><input disabled="" type="checkbox"> youtube: <a href="https://www.youtube.com/watch?v=y2bhV81MfKQ">The ins and outs of networking in Google Container Engine and Kubernetes (Google Cloud Next &lsquo;17)</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="installation-configuration-and-validationhttpsgithubcomkelseyhightowerkubernetes-the-hard-waytreef9486b081f8f54dd63a891463f0b0e783d084307-12"><a href="https://github.com/kelseyhightower/kubernetes-the-hard-way/tree/f9486b081f8f54dd63a891463f0b0e783d084307">Installation, Configuration and Validation</a> 12%<a href="#installation-configuration-and-validationhttpsgithubcomkelseyhightowerkubernetes-the-hard-waytreef9486b081f8f54dd63a891463f0b0e783d084307-12" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> Design a Kubernetes cluster</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/">Install Kubernetes masters and nodes, including the use of TLS bootstrapping</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/">Configure secure cluster communications</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/admin/high-availability/">Configure a Highly-Available Kubernetes cluster</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/getting-started-guides/binary_release/#prebuilt-binary-release">Know where to get the Kubernetes release binaries</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/f9486b081f8f54dd63a891463f0b0e783d084307/docs/01-infrastructure-gcp.md">Provision underlying infrastructure to deploy a Kubernetes cluster</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/cluster-administration/networking/">Choose a network solution</a></p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Choose your Kubernetes infrastructure configuration</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Run end-to-end tests on your cluster</p>
+<ul>
+<li>
+<p>Some simple commands will cover most cases:</p>
+<p>$ kubectl cluster-info
+$ kubectl get nodes
+$ kubectl get componentstatuses
+$ kubectl get pods -o wide &ndash;show-labels &ndash;all-namespaces
+$ kubectl get svc  -o wide &ndash;show-labels &ndash;all-namespaces</p>
+</li>
+</ul>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> For more advanced end to end testing, which may not be covered on the exam, also see:</p>
+<ul>
+<li><a href="https://github.com/kubernetes/community/blob/master/contributors/devel/sig-testing/e2e-tests.md">End-To-End Testing in Kubernetes</a></li>
+<li><a href="https://github.com/cncf/k8s-conformance/blob/master/instructions.md">Using CNCF k8s conformance</a></li>
+<li><a href="https://scanner.heptio.com/">Heptio Sonobuoy Scanner</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="security-12">Security 12%<a href="#security-12" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/">Securing a kubernetes cluster</a>
+<ul>
+<li><input disabled="" type="checkbox"> youtube: <a href="https://www.youtube.com/watch?v=YRR-kZub0cA">Building for Trust: How to Secure Your Kubernetes Cluster [I] - Alexander Mohr &amp; Jess Frazelle</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/admin/authorization/rbac/">Know how to configure authentication and authorization</a>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/admin/accessing-the-api/">Access the api</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/reference/access-authn-authz/authentication/">Authentication</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/admin/authorization/rbac/">Authorization with RBAC</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/admin/admission-controllers/">Admission Control</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> [Understand Kubernetes security primitives]
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/policy/pod-security-policy/">Pod Security Policy</a>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://github.com/kubernetes/examples/blob/master/staging/podsecuritypolicy/rbac/README.md">PSP and RBAC</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/administer-cluster/declare-network-policy/">Know to configure network policies</a>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://ahmet.im/blog/kubernetes-network-policy/">Blog: Kubernetes network policy</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://www.katacoda.com/projectcalico/scenarios/calico">Katacoda Calico</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/">Create and manage TLS certificates for cluster components</a></li>
+<li><input disabled="" type="checkbox"> Work with images securely</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/configure-pod-container/security-context/">Define security contexts</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/configuration/secret/">Secure persistent key value store</a></li>
+<li><input disabled="" type="checkbox"> Work with role-based access control</li>
+</ul>
+<h3 id="networkinghttpskubernetesiodocsconceptscluster-administrationnetworking-11"><a href="https://kubernetes.io/docs/concepts/cluster-administration/networking/">Networking</a> 11%<a href="#networkinghttpskubernetesiodocsconceptscluster-administrationnetworking-11" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/cluster-administration/networking/">Understand the networking configuration on the cluster nodes</a></li>
+<li><input disabled="" type="checkbox"> Understand Pod networking concepts
+<ul>
+<li><input disabled="" type="checkbox"> youtube: <a href="https://www.youtube.com/watch?v=y2bhV81MfKQ">The ins and outs of networking in Google Container Engine and Kubernetes (Google Cloud Next &lsquo;17)</a></li>
+<li><input disabled="" type="checkbox"> youtube: <a href="https://www.youtube.com/watch?v=WwQ62OyCNz4">Networking with Kubernetes</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://speakerdeck.com/thockin/illustrated-guide-to-kubernetes-networking">Illustrated Guide To Kubernetes Networking by Tim Hockin</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> Understand service networking
+<ul>
+<li><input disabled="" type="checkbox"> youtube: <a href="https://www.youtube.com/watch?v=0Omvgd7Hg1I">Life of a Packet [I] - Michael Rubin, Google</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/">Deploy and configure network load balancer</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/services-networking/ingress/">Know how to use Ingress rules</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/">Know how to configure and use the cluster DNS</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://github.com/containernetworking/cni">Understand CNI</a>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="http://www.dasblinkenlichten.com/understanding-cni-container-networking-interface/">More information on CNI</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="cluster-maintenance-11">Cluster Maintenance 11%<a href="#cluster-maintenance-11" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/getting-started-guides/ubuntu/upgrades/">Understand Kubernetes cluster upgrade process</a>
+<ul>
+<li><input disabled="" type="checkbox"> Best resource upgrade is to watch <a href="https://youtu.be/x9doB5eJWgQ">TGI Kubernetes 011: Upgrading to 1.8 with kubeadm</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://cloud.google.com/container-engine/docs/clusters/upgrade">Facilitate operating system upgrades</a> #need review to make it more platform agnostic</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/getting-started-guides/ubuntu/backups/">Implement backup and restore methodologies</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd">Etcd management/backups/restore</a></li>
+</ul>
+<h3 id="troubleshootinghttpskubernetesiodocstasksdebug-application-clustertroubleshooting-10"><a href="https://kubernetes.io/docs/tasks/debug-application-cluster/troubleshooting/">Troubleshooting</a> 10%<a href="#troubleshootinghttpskubernetesiodocstasksdebug-application-clustertroubleshooting-10" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/debug-application-cluster/determine-reason-pod-failure/">Troubleshoot application failure</a>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/debug-application-cluster/debug-application-introspection/">Application Introspection and Debugging</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/debug-application-cluster/debug-service/">Services</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/debug-application-cluster/debug-cluster/">Troubleshoot control plane failure</a>
+<ul>
+<li><input disabled="" type="checkbox"> youtube <a href="https://www.youtube.com/watch?v=U1zR0eDQRYQ">Kubernetes Day 2: Cluster Operations [I] - Brandon Philips, CoreOS</a></li>
+<li><input disabled="" type="checkbox"> Safaribooksonline: <a href="https://www.safaribooksonline.com/library/view/oscon-2016-video/9781491965153/video246982.html">https://www.safaribooksonline.com/library/view/oscon-2016-video/9781491965153/video246982.html</a></li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/debug-application-cluster/debug-cluster/">Troubleshoot worker node failure</a></li>
+<li><input disabled="" type="checkbox"> Troubleshoot networking</li>
+</ul>
+<h3 id="storagehttpskubernetesiodocsconceptsstoragevolumes-7"><a href="https://kubernetes.io/docs/concepts/storage/volumes/">Storage</a> 7%<a href="#storagehttpskubernetesiodocsconceptsstoragevolumes-7" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/">Understand persistent volumes and know how to create them</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/#access-modes">Understand access modes for volumes</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims">Understand persistent volume claims primitive</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/storage/volumes/#types-of-volumes">Understand Kubernetes storage objects</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-volume-storage/">Know how to configure applications with persistent storage</a></li>
+</ul>
+<h3 id="application-lifecycle-management-8">Application Lifecycle Management 8%<a href="#application-lifecycle-management-8" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/">Understand Deployments and how to perform rolling updates and rollbacks</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/cluster-administration/manage-deployment/">Know various ways to configure applications</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/cluster-administration/manage-deployment/#scaling-your-application">Know how to scale applications</a></li>
+<li><input disabled="" type="checkbox"> Understand the primitives necessary to create a self-healing application</li>
+</ul>
+<h3 id="scheduling-5">Scheduling 5%<a href="#scheduling-5" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/">Use label selectors to schedule Pods</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/">Understand the role of DaemonSets</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/administer-cluster/memory-default-namespace/">Understand how resource limits can affect Pod scheduling</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/administer-cluster/configure-multiple-schedulers/">Understand how to run multiple schedulers and how to configure Pods to use them</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/administer-cluster/static-pod/">Manually schedule a pod without a scheduler</a>
+If you require a pod to start on a specific node, you can specify this in POD spec.nodeName, that is what DaemonSets do.</li>
+<li><input disabled="" type="checkbox"> <a href="https://stackoverflow.com/questions/28857993/how-does-kubernetes-scheduler-work/28874577#28874577">Display scheduler events</a>
+/var/log/kube-scheduler.log on the control/master node
+or use <code>kubectl describe</code> as in</li>
+<li><input disabled="" type="checkbox"> $kubectl describe pods <!-- raw HTML omitted -->  | grep -A7 ^Events</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/administer-cluster/configure-multiple-schedulers/">Know how to configure the Kubernetes scheduler</a></li>
+</ul>
+<h3 id="loggingmonitoringhttpskubernetesiodocsconceptscluster-administrationlogging-5"><a href="https://kubernetes.io/docs/concepts/cluster-administration/logging/">Logging/Monitoring</a> 5%<a href="#loggingmonitoringhttpskubernetesiodocsconceptscluster-administrationlogging-5" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://www.datadoghq.com/blog/monitoring-kubernetes-era/">Monitoring Kubernetes</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/debug-application-cluster/resource-usage-monitoring/">Understand how to monitor all cluster components</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/reference/kubectl/cheatsheet/#interacting-with-running-pods">Pod and Node metrics</a></li>
+<li><input disabled="" type="checkbox"> Understand how to monitor applications</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/tasks/debug-application-cluster/debug-cluster/#looking-at-logs">Manage cluster component logs</a>
+<ul>
+<li><input disabled="" type="checkbox"> Master
+<ul>
+<li>/var/log/kube-apiserver.log - API Server, responsible for serving the API</li>
+<li>/var/log/kube-scheduler.log - Scheduler, responsible for making scheduling decisions</li>
+<li>/var/log/kube-controller-manager.log - Controller that manages replication controllers</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> Worker Nodes
+<ul>
+<li>/var/log/kubelet.log - Kubelet, responsible for running containers on the node</li>
+<li>/var/log/kube-proxy.log - Kube Proxy, responsible for service load balancing</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#logs">Manage application logs</a></li>
+</ul>
+<h3 id="exercises">Exercises<a href="#exercises" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <a href="https://linuxacademy.com/course/cloud-native-certified-kubernetes-administrator-cka/">https://linuxacademy.com/course/cloud-native-certified-kubernetes-administrator-cka/</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://github.com/David-VTUK/CKA-StudyGuide">https://github.com/David-VTUK/CKA-StudyGuide</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://github.com/ShubhamTatvamasi/kubernetes-practice-tests">https://github.com/ShubhamTatvamasi/kubernetes-practice-tests</a></li>
+<li><input disabled="" type="checkbox"> <a href="http://devnetstack.com/certified-kubernetes-administrator-exam-study-guide/">http://devnetstack.com/certified-kubernetes-administrator-exam-study-guide/</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://github.com/kelseyhightower/kubernetes-the-hard-way">https://github.com/kelseyhightower/kubernetes-the-hard-way</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://github.com/arush-sal/cka-practice-environment">https://github.com/arush-sal/cka-practice-environment</a></li>
+</ul>
+<h3 id="tips">Tips<a href="#tips" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<ul>
+<li>
+<p>It’s 3 hours long</p>
+</li>
+<li>
+<p>24 questions</p>
+</li>
+<li>
+<p>Pass mark is 74%</p>
+</li>
+<li>
+<p>Completely practical, no theory</p>
+</li>
+<li>
+<p>All on the command line</p>
+</li>
+<li>
+<p>You take the exam at home,</p>
+<ul>
+<li>on your own computer.</li>
+</ul>
+</li>
+<li>
+<p>Clear your desk of everything</p>
+<ul>
+<li>Drinks, books, pens, cuddly toys.</li>
+</ul>
+</li>
+<li>
+<p>You can have 2 browser tabs open</p>
+<ol>
+<li>The actual exam</li>
+<li><a href="https://kubernetes.io/docs/">The official Kubernetes docs</a> site</li>
+</ol>
+</li>
+<li>
+<p>Questions are visibly weighted</p>
+<ul>
+<li>with a percentage</li>
+</ul>
+</li>
+<li>
+<p>The harder the question, the more points</p>
+</li>
+<li>
+<p>source &lt;(kubectl completion bash)</p>
+</li>
+<li>
+<p>k = &lsquo;kubectl&rsquo;
+kgp = &lsquo;kubectl get pods&rsquo;
+kgs = &lsquo;kubectl get svc&rsquo;
+kgc = &lsquo;kubectl get componentstatus&rsquo;</p>
+</li>
+<li>
+<p>Start every question with an example from the docs and update it to answer your question</p>
+</li>
+<li>
+<p>Learn to create the Kubernetes objects FAST</p>
+</li>
+<li>
+<p>Have a small amount of knowledge of how to SysAdmin a Kubernetes cluster</p>
+</li>
+<li>
+<p>Use the docs site search functionality. A lot.</p>
+</li>
+<li>
+<p>Prioritise your questions</p>
+</li>
+<li>
+<p>Use the command line kubectl explain will help you during the exam.</p>
+</li>
+<li>
+<p>Carefully study the topic of</p>
+<ul>
+<li><a href="https://kubernetes.io/docs/tasks/administer-cluster/static-pod/">Static Pods</a>, this will help you very well when troubleshooting the non-working Kubernetes components.</li>
+<li><a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet-tls-bootstrapping/">TLS Bootstrapping</a>. From my point of view the most voluminous question on the exam. It seemed to me more difficult than Mumshad described in his course and in the practical tests.</li>
+</ul>
+</li>
+<li>
+<p>&ldquo;If you don’t have specific knowledge about container tecnologies and docker, read the O’Reilly’s book “<a href="http://shop.oreilly.com/product/0636920036142.do">Docker: Up &amp; Running</a>“, the exam doesn’t require specific knowledge about docker but, since Kubernetes is an orchestrator for containers, this is a needed base.&rdquo;</p>
+</li>
+<li>
+<p>&ldquo;IMHO the best book about k8s is “<strong><a href="https://www.manning.com/books/kubernetes-in-action">Kubernetes in Action</a></strong>” , it covers a lot of aspect about this software and it’s very detailed, you don’t need to read it from the beginning till the end, some chapters of the “part 3” are not required by the exam.&rdquo;</p>
+</li>
+</ul>
+<h1 id="source-index">Source index<a href="#source-index" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<ul>
+<li><a href="https://docs.google.com/spreadsheets/d/10NltoF_6y3mBwUzQ4bcQLQfCE1BWSgUDcJXy-Qp2JEU/edit#gid=0">Kubernauts resources list</a></li>
+<li><a href="http://kubernetes.io">kubernetes.io</a> (&ldquo;Ensure you have the right version of Kubernetes documentation selected (e.g. v1.16 as of 20th Nov. 2019 exam) especially for API objects and annotations. This release removes several deprecated API&rsquo;s.&quot;)</li>
+</ul>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>1177 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-03-05 12:46 &#43;0700</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="next-post" href="https://example.com/posts/career-lessons/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>What Lessons Did I Learn In My Career So Far</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2020 <a href="https://example.com">A.J.S. Verbeek</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://example.com/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="https://example.com/js/bundle.min.4a9a0ac3d2217822c7865b4161e6c2a71de1d70492264337755427898dd718f6.js" integrity="sha256-SpoKw9IheCLHhltBYebCpx3h1wSSJkM3dVQniY3XGPY=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://example.com/tags/career/</loc>
+    <lastmod>2020-04-05T13:22:10+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/cv/</loc>
+    <lastmod>2020-04-05T13:22:10+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/experience/</loc>
+    <lastmod>2020-04-05T13:22:10+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/</loc>
+    <lastmod>2020-04-05T13:22:10+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2020-04-05T13:22:10+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/career-lessons/</loc>
+    <lastmod>2020-04-05T13:22:10+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/about/</loc>
+    <lastmod>2020-04-05T11:47:08+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2020-04-05T11:47:08+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/yet-another-cka-study-guide/</loc>
+    <lastmod>2020-03-05T12:46:08+07:00</lastmod>
+  </url>
+  
+</urlset>
