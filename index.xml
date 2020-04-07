@@ -13,6 +13,17 @@
     
     
     <item>
+      <title>DevOps From Scratch</title>
+      <link>https://svatwork.github.io/posts/devops-from-scratch/</link>
+      <pubDate>Tue, 07 Apr 2020 12:10:20 +0700</pubDate>
+      
+      <guid>https://svatwork.github.io/posts/devops-from-scratch/</guid>
+      <description>When hiring for DevOps Engineers, it&amp;rsquo;s generally suggested that hiring one or more DevOps Engineers will not change the organizational blueprint. Meaning, hiring DevOps Engineers will not get all the alleged benefits described by high performing organizations like Netflix or in the DevOps Handbook.
+I think that&amp;rsquo;s partially true, however, we can make the first step in the right direction. Specifically, we can start with Flow.
+ Flow accelerates the delivery of work from Development to Operations to our customers.</description>
+    </item>
+    
+    <item>
       <title>Thoughts On The CNCF CKA Exam After Passing With 93%</title>
       <link>https://svatwork.github.io/posts/cka-thoughts/</link>
       <pubDate>Sun, 05 Apr 2020 15:45:25 +0700</pubDate>
