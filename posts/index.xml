@@ -6,8 +6,294 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Tue, 07 Apr 2020 12:10:20 +0700</lastBuildDate>
+		<lastBuildDate>Wed, 22 Apr 2020 11:18:25 +0700</lastBuildDate>
 		<atom:link href="https://svatwork.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>My Crossover Interview</title>
+			<link>https://svatwork.github.io/posts/my-crossover-interview/</link>
+			<pubDate>Wed, 22 Apr 2020 11:18:25 +0700</pubDate>
+			
+			<guid>https://svatwork.github.io/posts/my-crossover-interview/</guid>
+			<description>I applied to CrossOver last month. They have an automated interview process, where you have to pass a list of tests like basic cognitive aptitude and language skills.
+It seemed like I passed all of the tests, however, after submitting my final test I heard that my score wasn&amp;rsquo;t sufficient to become a Product Knowledge Curator to earn that sweet American salary of $100K a year.
+My final test consistend of creating three product knowledge articles based on customer inquiries.</description>
+			<content type="html"><![CDATA[<p>I applied to CrossOver last month. They have an automated interview process, where you have to pass a list of tests like basic cognitive aptitude and language skills.</p>
+<p>It seemed like I passed all of the tests, however, after submitting my final test I heard that my score wasn&rsquo;t sufficient to become a Product Knowledge Curator to earn that sweet American salary of $100K a year.</p>
+<p><img src="https://i.redd.it/tbdw89vj27j31.png" alt="alt let-me-in"></p>
+<p>My final test consistend of creating three product knowledge articles based on customer inquiries. I hope they can be treated as a good sample for anyone. Any feedback is welcome as well, as I have no experience with this sort of work, nor could I found any resources on the internet.</p>
+<h1 id="article-1">Article #1</h1>
+<h2 id="h" class="k8yr88jtekzq c7">Issue</h2>
+<p>After installing Cloudflare, the usage of an IP address outside a
+whitelisted range of IP addresses is unavailable. This happens, for
+instance, in the case of downloading a data feed from the website of the
+customer.</p>
+<h2 id="h" class="keazvfit2kqd c7">Root cause</h2>
+<p>The customer opened this ticket by announcing the installation of
+Cloudflare. The Cloudflare product is known as a “Content Delivery
+Network” (CDN). It’s main usage is serving static content, however,
+customers also rely on it for <a href="https://www.google.com/url?q=https://support.cloudflare.com/hc/en-us/articles/205177068&amp;sa=D&amp;ust=1587533068987000">enhanced security, performance and
+reliability</a>.</p>
+<p>Cloudflare stops malicious traffic before it reaches the origin web
+server; first, the origin IP address is “masked” (a DNS lookup returns a
+Cloudflare IP address). The second step &ndash; our main concern &ndash; is
+Cloudflare&rsquo;s’ analysis of the resources requested. If a visitor requests
+a high volume of resources over a short period of time, then that
+visitor can be marked as malicious traffic.</p>
+<p>You can imagine that downloading a data feed in any interval might be
+considered as suspicious and, subsequently, malicious traffic.
+Whitelisting a range of IP addresses with server-defined firewall rules
+marks traffic as unsuspicious. This is opposed to blacklisting a range
+of IP addresses, in which case the server has a range of IP addresses
+that are marked suspicious already and are therefore challenged or
+blocked. In the Cloudflare configuration, both are known as <a href="https://www.google.com/url?q=https://support.cloudflare.com/hc/en-us/articles/217074967-Configuring-IP-Access-Rules&amp;sa=D&amp;ust=1587533068987000">configuring
+IP access
+rules</a>.
+In IP access rules, visitors that are whitelisted have precedence over
+blacklists.</p>
+<p>We’ve agreed with the customer to download a data feed from their
+website. Since it’s their website that’s using Cloudflare, they are
+“privileged” (as in: having the rights of access) to configure
+Cloudflare. Moreover, our role is to download their data feed, so we are
+responsible for outbound traffic to their Cloudflare IP address. This
+means that we have to supply our customer with a range of IP addresses
+that they can use in their Cloudflare configuration.</p>
+<p>We can supply this range of IP addresses by browsing to endpoint
+<a href="https://api.crossover.com/12345678">https://api.crossover.com/12345678</a>. An API request to this endpoint
+should return the IP addresses that should be whitelisted for use of
+Cloudflare. This endpoint is secured with basic authentication. The
+customer should have an application available for monitoring changes to
+this file.</p>
+<h2 id="h" class="glhs6ahcgeb8 c7">Resolution</h2>
+<h3 id="h" class="9nh7dhmru0rk c14">Create a HTTP request to the endpoint</h3>
+<p>Copy the following code (or browse to
+/shared-drive/data/cloudflare-ip.js):</p>
+<pre><code>var data = [&quot;192.168.0.0&quot;, &quot;192.168.0.1&quot;];                               
+                                                                    
+var xhr = new XMLHttpRequest();                                          
+                                                                        
+xhr.withCredentials = true;                                              
+                                                                        
+xhr.addEventListener(&quot;readystatechange&quot;, function () {                   
+                                                                        
+ if (this.readyState === this.DONE) {                                    
+                                                                        
+   console.log(this.responseText);                                       
+                                                                        
+ }                                                                       
+                                                                        
+});                                                                      
+                                                                        
+xhr.open(&quot;GET&quot;, &quot;https://api.crossover.com/12345678&quot;);                   
+                                                                        
+xhr.setRequestHeader(&quot;cloudflare-ip&quot;, &quot;1&quot;);                              
+                                                                        
+xhr.setRequestHeader(&quot;authorization&quot;, &quot;Basic dXNlcjoxMjM0&quot;);             
+                                                                        
+xhr.send(data);   
+</code></pre>
+<h3 id="h" class="9oe861vd1qb c14">Share the IP addresses with the customer</h3>
+<p>You can either show the customer how to make a HTTP request to this
+endpoint, or supply them with the range by making the request yourself
+and copying over the IP addresses.</p>
+<h2 id="h" class="vgz59dblomqs c7">Multiple choice quiz</h2>
+<h3 id="h" class="3zt35tjcja1w c14">Q1: For which of the following reasons would you use a CDN? (2 points)</h3>
+<ol>
+<li>Serving static content</li>
+<li>Performance</li>
+<li>Security</li>
+<li>All of the above</li>
+</ol>
+<h3 id="h" class="glzqh7asrjuo c14">Q2: What happens when you lookup the DNS configuration for a Cloudflare server? (3 points)</h3>
+<ol>
+<li>The Cloudflare server returns the IP address of the origin server</li>
+<li>The Cloudflare server returns the IP address of the Cloudflare
+server</li>
+<li>The Cloudflare server returns the FQDN of the origin server</li>
+<li>The Cloudflare server returns the FQDN of the Cloudflare server</li>
+</ol>
+<h3 id="h" class="o4p39ts22gmw c14">Q3: Who is responsible for whitelisting IP addresses in the Cloudflare configuration? (4 points)</h3>
+<ol>
+<li>The administrator of the Cloudflare server</li>
+<li>The administrator of the origin web server</li>
+<li>The administrator of the web client</li>
+<li>All of the above </li>
+</ol>
+<h3 id="h" class="23fx3xg0h7ph c14">Q4: Where do we find the endpoint for the whitelisted IP addresses? (1 point)</h3>
+<ol>
+<li><a href="https://www.google.com/url?q=https://crossover.com/api/12345678&amp;sa=D&amp;ust=1587533068994000">https://crossover.com/api/12345678</a></li>
+<li><a href="https://www.google.com/url?q=https://crossover.com/whitelisted-ip-addresses&amp;sa=D&amp;ust=1587533068994000">https://crossover.com/whitelisted-ip-addresses</a></li>
+<li><a href="https://www.google.com/url?q=https://api.crossover.com/12345678&amp;sa=D&amp;ust=1587533068994000">https://api.crossover.com/12345678</a></li>
+<li><a href="https://www.google.com/url?q=https://api.crossover.com/whitelisted-ip-addresses&amp;sa=D&amp;ust=1587533068994000">https://api.crossover.com/whitelisted-ip-addresses</a> </li>
+</ol>
+<h1 id="article-2">Article #2</h1>
+<h2 id="h" class="k8yr88jtekzq c11">Issue</h2>
+<p>The index for the fakesite.com fails. The customer is unable to update
+the product catalog &ndash; one beneficiary of the index &ndash; which includes
+pricing.</p>
+<h2 id="h" class="keazvfit2kqd c11">Root cause</h2>
+<p>Indexing is a common technique to decrease query time for a database. An
+index is applied to rows with <a href="https://www.google.com/url?q=https://dev.mysql.com/doc/refman/8.0/en/mysql-indexes.html&amp;sa=D&amp;ust=1587533093395000">specific columns to increase search
+performance</a>.
+If there’s no index available, then the database engine has to start a
+query from the first row until it reaches the row that matches the
+query. A query can also start the search from the index, decreasing the
+query time to logarithmic time complexity (O(log(t)n)).</p>
+<p>Fakesite.com has invested in a custom index by SLI
+(com.sli.searchbuilder), a Java application. This index fails because it
+“expects single but array was returned”. Specifically, there’s one entry
+that has duplicated &lt;review&gt; information. In other words, there’s one
+item number “24140-206” that has two entry keys: “826” and “1987”. We
+can reproduce the error by returning an array [“826”, “1987”].</p>
+<p>It’s possible to specify two keys because there’s an issue with the
+translation module. This module is called by the previously mentioned
+SearchBuilder module. The first function in the call stack is the
+setVariables function by the TranslationFunction module. Let’s assume
+that this function takes the database entry (row) as input, and returns
+a Java data structure. It throws an error, then, because the variable
+for product reviews keys should be a single and not an array.</p>
+<p>Furthermore, as documented in the original troubleshooting article,
+there’s not enough information about the location of the Select One From
+Array Module. This module could handle an array as input by selecting
+one value in that array instead of the array itself. We can’t locate
+this module because it’s “Use If” has multiple connections. It has
+multiple connections because the original software engineer has chosen
+for this implementation for various reasons that are outside of the
+scope of this article.</p>
+<p>We could resolve the solution permanently by modifying this function and
+wrap the present logic in a conditional logic block. We might be able to
+check the parameters for the presence of an array of keys instead. In a
+quick patch, we could take the first item in the array by default; this
+might be the first product review written.</p>
+<p>In a rewrite, which should take longer and have customer approval, we
+should either build the application to support multiple product reviews
+or deny any attempt at entering multiple product reviews. This will
+prevent the issue mentioned in this article to happen again.</p>
+<h2 id="h" class="glhs6ahcgeb8 c11">Resolution</h2>
+<h3 id="h" class="ebtfn16dtn5f c13">Troubleshooting steps</h3>
+<ol>
+<li>Browse to
+<a href="https://www.google.com/url?q=https://sb1.sli-systems.com/fakesiteType%3DPRODUCTION&amp;sa=D&amp;ust=1587533093397000">https://sb1.sli-systems.com/fakesiteType=PRODUCTION</a></li>
+<li>Click on the translation module.</li>
+<li>Click on the “Run From” button.</li>
+<li>Open the log; you can find this link in the right menu on the SB
+screen.</li>
+<li>You will see the error reproduced: “Expected Single but Array was
+returned at field Value with id:123456789.</li>
+<li>This id is important: copy it, and visit the Translation module on
+the translation page.</li>
+<li>Click on the Find button (top of the screen), paste the id from the
+error. You will see that the module is highlighted with the issue.</li>
+<li>Check the module, it should be “num_reviews”. Check the source it’s
+pulling data from.</li>
+<li>Click on the “view output” button from the consolidation module
+wired before the translation module.</li>
+<li>Search using these filters: review/Reviewcount has “Minimum matches
+per Entry”: 2.</li>
+<li>The resulting product has two reviews.</li>
+<li>Inform the customer to delete this product.</li>
+</ol>
+<h2 id="h" class="vgz59dblomqs c11">Multiple choice quiz</h2>
+<h3 id="h" class="kahwhg2r02jj c13">Q1: What is NOT a purpose of a database index? (1 point)</h3>
+<ol>
+<li>Increase performance of a database engine</li>
+<li>Decrease query time for a database engine</li>
+<li>Decrease the time complexity for a database engine</li>
+<li>Decrease the space complexity for a database engine</li>
+</ol>
+<h3 id="h" class="y0ouj9umo70y c13">Q2: Why does the index fail for the slibuilder application? (2 points)</h3>
+<ol>
+<li>The translation module returns one product review but expects two</li>
+<li>The translation module returns two product reviews but expects one</li>
+<li>The translation module returns one array of product reviews but
+expects two arrays</li>
+<li>The translation module returns two arrays of product reviews but
+expects one array</li>
+</ol>
+<h3 id="h" class="apr8lkulmsia c13">Q3: What is a quick way to troubleshoot this problem? (2 points)</h3>
+<ol>
+<li>Find and remove one product review</li>
+<li>Find and remove two product reviews</li>
+<li>Find and remove product reviews until there’s only one left</li>
+<li>Find and remove all product reviews</li>
+</ol>
+<h3 id="h" class="ecjrrdlg1f3b c13">Q4: What is not a possible long-term solution for this problem? (3 points)</h3>
+<ol>
+<li>Rewrite the logic to support two product reviews</li>
+<li>Rewrite the Select One From Array Module</li>
+<li>Wrap the logic in a conditional logic block</li>
+<li>Apply the quick way to troubleshoot this problem</li>
+</ol>
+<h1 id="article-3">Article #3</h1>
+<h2 id="h" class="k8yr88jtekzq c8">Issue</h2>
+<p>The customer has reported a high memory footprint on the LGP server.</p>
+<h2 id="h" class="keazvfit2kqd c8">Root cause</h2>
+<p>A customer has opened a ticket as a follow-up to a previous request
+(#1117416 &ndash; “Memory up to 98 percent on LGP server”). The previous
+request has not been adequately satisfied, ie. there’s still no
+temporary or permanent resolution for the memory usage on the LGP
+server.</p>
+<p>There’s not enough information to conclude that the problem resolved
+itself automatically previous time, and hence no intervention by the L1
+or L2 was necessary. However, it seems likely that the problem has
+resolved itself by nature of memory. That’s because with 98%+ usage, the
+process might have been OOM-killed. There is only data available from
+day-by-day, so we don’t know the actual memory usage on a given day.
+This is obviously a report run by the sar command, so next time it might
+be more useful to report on real-time metrics.</p>
+<p>Let’s not assume that understanding one metric, memory usage, is key to
+diagnosing the problem. One distinction we can’t infer from this table
+is the respective virtual and physical memory. Moreover, we have no
+information about what application is responsible for which part of the
+memory. If this is a case of virtual memory over-allocation, we could
+tune that behavior. Another matter is the difference between active and
+inactive memory.</p>
+<p>Furthermore, there’s no indication that there is actually problem. It
+looks like there’s efficient use of memory if we don’t know the
+respective resident memory and cache sizes. There has not been any
+report of system failure. It might be a good idea to do some further
+reporting to assess whether there’s an issue, and if so, what we might
+provide as resolution for the customer request.</p>
+<h2 id="h" class="glhs6ahcgeb8 c8">Resolution</h2>
+<h3 id="h" class="2epbdqtnj7hp c15">In-depth reporting</h3>
+<p>Please run:</p>
+<ul>
+<li>free</li>
+<li>cat /proc/meminfo</li>
+<li>vmstat 1 3 5</li>
+<li>top</li>
+<li>ps -eo pid,user,comm,size,vsize,rss</li>
+<li>sar -r 1 3 5</li>
+<li>sar -S 1 3 5</li>
+<li>smem</li>
+</ul>
+<p>And report the results, so we can get more information about this issue.
+We should also keep the customer up-to-date on this issue.</p>
+<h2 id="h" class="vgz59dblomqs c8">Multiple choice quiz</h2>
+<h3 id="h" class="t260tjp4kig9 c15">Q1: High memory is always a problem</h3>
+<ol>
+<li>True</li>
+<li>False</li>
+</ol>
+<h3 id="h" class="nnar68hgqxcc c15">Q2: There’s enough information to solve this problem</h3>
+<ol>
+<li>True</li>
+<li>False</li>
+</ol>
+<h3 id="h" class="unio2xv8fu9w c15">Q3: The LGP server has experienced failures since the high memory usage was observed</h3>
+<ol>
+<li>True</li>
+<li>False</li>
+</ol>
+<h3 id="h" class="esywz97jh0ud c15">Q4: What command generated this report?</h3>
+<ol>
+<li>cat /proc/meminfo</li>
+<li>top</li>
+<li>sar</li>
+<li>smem</li>
+</ol>
+]]></content>
+		</item>
 		
 		<item>
 			<title>DevOps From Scratch</title>
