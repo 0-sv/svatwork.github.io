@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sv@work</title>
-    <link>https://svatwork.com/</link>
+    <link>https://www.svatwork.com/</link>
     <description>Recent content on sv@work</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sun, 05 Apr 2020 11:47:08 +0700</lastBuildDate>
     
-	<atom:link href="https://svatwork.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.svatwork.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My Crossover Interview</title>
-      <link>https://svatwork.com/posts/my-crossover-interview/</link>
+      <link>https://www.svatwork.com/posts/my-crossover-interview/</link>
       <pubDate>Wed, 22 Apr 2020 11:18:25 +0700</pubDate>
       
-      <guid>https://svatwork.com/posts/my-crossover-interview/</guid>
+      <guid>https://www.svatwork.com/posts/my-crossover-interview/</guid>
       <description>I applied to CrossOver last month. They have an automated interview process, where you have to pass a list of tests like basic cognitive aptitude and language skills.
 It seemed like I passed all of the tests, however, after submitting my final test I heard that my score wasn&amp;rsquo;t sufficient to become a Product Knowledge Curator to earn that sweet American salary of $100K a year.
 My final test consisted of creating three product knowledge articles based on customer inquiries.</description>
@@ -25,10 +25,10 @@ My final test consisted of creating three product knowledge articles based on cu
     
     <item>
       <title>DevOps From Scratch</title>
-      <link>https://svatwork.com/posts/devops-from-scratch/</link>
+      <link>https://www.svatwork.com/posts/devops-from-scratch/</link>
       <pubDate>Tue, 07 Apr 2020 12:10:20 +0700</pubDate>
       
-      <guid>https://svatwork.com/posts/devops-from-scratch/</guid>
+      <guid>https://www.svatwork.com/posts/devops-from-scratch/</guid>
       <description>When hiring for DevOps Engineers, it&amp;rsquo;s generally suggested that hiring one or more DevOps Engineers will not change the organizational blueprint. Meaning, hiring DevOps Engineers will not get all the alleged benefits described by high performing organizations like Netflix or in the DevOps Handbook.
 I think that&amp;rsquo;s partially true, however, we can make the first step in the right direction. Specifically, we can start with Flow.
  Flow accelerates the delivery of work from Development to Operations to our customers.</description>
@@ -36,30 +36,30 @@ I think that&amp;rsquo;s partially true, however, we can make the first step in 
     
     <item>
       <title>Thoughts On The CNCF CKA Exam After Passing With 93%</title>
-      <link>https://svatwork.com/posts/cka-thoughts/</link>
+      <link>https://www.svatwork.com/posts/cka-thoughts/</link>
       <pubDate>Sun, 05 Apr 2020 15:45:25 +0700</pubDate>
       
-      <guid>https://svatwork.com/posts/cka-thoughts/</guid>
+      <guid>https://www.svatwork.com/posts/cka-thoughts/</guid>
       <description>Last month I passed the CNCF CKA exam. I&amp;rsquo;ve been postponing the exam date for the better part of the year, assuming that it would be a very difficult exam. From what I&amp;rsquo;ve read, it used to be a difficult exam up until they broke the exam into two parts: CKA and CKAD. This happened around two years ago.
 The CKA is supposed to be the more difficult one of the two exams.</description>
     </item>
     
     <item>
       <title>What Lessons Did I Learn In My Career So Far</title>
-      <link>https://svatwork.com/posts/career-lessons/</link>
+      <link>https://www.svatwork.com/posts/career-lessons/</link>
       <pubDate>Sun, 05 Apr 2020 13:22:10 +0700</pubDate>
       
-      <guid>https://svatwork.com/posts/career-lessons/</guid>
+      <guid>https://www.svatwork.com/posts/career-lessons/</guid>
       <description>I&amp;rsquo;ve started doing freelance cloud engineering since the end of 2018. During software engineering at my first full-time employer, I was invited to work on a start-up. At one point the money ran out, so I went to look for a new employer in 2019. There, I worked on system administration during the time DevOps and Cloud were becoming trending.
 I took a break for a while to travel, and had some time to think about what direction to head.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://svatwork.com/about/</link>
+      <link>https://www.svatwork.com/about/</link>
       <pubDate>Sun, 05 Apr 2020 11:47:08 +0700</pubDate>
       
-      <guid>https://svatwork.com/about/</guid>
+      <guid>https://www.svatwork.com/about/</guid>
       <description>Hi, my name is Sebastiaan Verbeek. sv@work is an abbreviation of the first letter of my first name and last name. The @work part is for dedicating it as a career profile.
 I&amp;rsquo;ve written a blog post about my work experience and projects so far.
 I&amp;rsquo;m accepting projects to solve the problem of making your application elastic. That is, expanding and contracting your application to ensure you have the right amount of compute.</description>
@@ -67,10 +67,10 @@ I&amp;rsquo;m accepting projects to solve the problem of making your application
     
     <item>
       <title>Yet Another CKA Study Guide</title>
-      <link>https://svatwork.com/posts/yet-another-cka-study-guide/</link>
+      <link>https://www.svatwork.com/posts/yet-another-cka-study-guide/</link>
       <pubDate>Thu, 05 Mar 2020 12:46:08 +0700</pubDate>
       
-      <guid>https://svatwork.com/posts/yet-another-cka-study-guide/</guid>
+      <guid>https://www.svatwork.com/posts/yet-another-cka-study-guide/</guid>
       <description>As of March 2020 there are loads of resources to study for CKA (Certified Kubernetes Administrator). A lot of people have compiled their tips and tricks, created exercise repositories and applications, compiled yet more lists of additional resources, etc.
 I&amp;rsquo;d like to contribute by sharing my resource list. This is not my original work, and you will find all sources in the &amp;ldquo;Source index&amp;rdquo; paragraph. I&amp;rsquo;ve scheduled the test for next month and I&amp;rsquo;ll report later to share my own opinion about the test, if there&amp;rsquo;s anything I can contribute.</description>
     </item>
