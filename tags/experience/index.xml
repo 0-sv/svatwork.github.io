@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>experience on sv@work</title>
-    <link>https://svatwork.github.io/tags/experience/</link>
+    <link>https://svatwork.com/tags/experience/</link>
     <description>Recent content in experience on sv@work</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Wed, 22 Apr 2020 11:18:25 +0700</lastBuildDate>
     
-	<atom:link href="https://svatwork.github.io/tags/experience/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://svatwork.com/tags/experience/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My Crossover Interview</title>
-      <link>https://svatwork.github.io/posts/my-crossover-interview/</link>
+      <link>https://svatwork.com/posts/my-crossover-interview/</link>
       <pubDate>Wed, 22 Apr 2020 11:18:25 +0700</pubDate>
       
-      <guid>https://svatwork.github.io/posts/my-crossover-interview/</guid>
+      <guid>https://svatwork.com/posts/my-crossover-interview/</guid>
       <description>I applied to CrossOver last month. They have an automated interview process, where you have to pass a list of tests like basic cognitive aptitude and language skills.
 It seemed like I passed all of the tests, however, after submitting my final test I heard that my score wasn&amp;rsquo;t sufficient to become a Product Knowledge Curator to earn that sweet American salary of $100K a year.
 My final test consisted of creating three product knowledge articles based on customer inquiries.</description>
@@ -25,10 +25,10 @@ My final test consisted of creating three product knowledge articles based on cu
     
     <item>
       <title>What Lessons Did I Learn In My Career So Far</title>
-      <link>https://svatwork.github.io/posts/career-lessons/</link>
+      <link>https://svatwork.com/posts/career-lessons/</link>
       <pubDate>Sun, 05 Apr 2020 13:22:10 +0700</pubDate>
       
-      <guid>https://svatwork.github.io/posts/career-lessons/</guid>
+      <guid>https://svatwork.com/posts/career-lessons/</guid>
       <description>I&amp;rsquo;ve started doing freelance cloud engineering since the end of 2018. During software engineering at my first full-time employer, I was invited to work on a start-up. At one point the money ran out, so I went to look for a new employer in 2019. There, I worked on system administration during the time DevOps and Cloud were becoming trending.
 I took a break for a while to travel, and had some time to think about what direction to head.</description>
     </item>

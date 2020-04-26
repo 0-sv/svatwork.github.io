@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cncf on sv@work</title>
-    <link>https://svatwork.github.io/tags/cncf/</link>
+    <link>https://svatwork.com/tags/cncf/</link>
     <description>Recent content in cncf on sv@work</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sun, 05 Apr 2020 15:45:25 +0700</lastBuildDate>
     
-	<atom:link href="https://svatwork.github.io/tags/cncf/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://svatwork.com/tags/cncf/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Thoughts On The CNCF CKA Exam After Passing With 93%</title>
-      <link>https://svatwork.github.io/posts/cka-thoughts/</link>
+      <link>https://svatwork.com/posts/cka-thoughts/</link>
       <pubDate>Sun, 05 Apr 2020 15:45:25 +0700</pubDate>
       
-      <guid>https://svatwork.github.io/posts/cka-thoughts/</guid>
+      <guid>https://svatwork.com/posts/cka-thoughts/</guid>
       <description>Last month I passed the CNCF CKA exam. I&amp;rsquo;ve been postponing the exam date for the better part of the year, assuming that it would be a very difficult exam. From what I&amp;rsquo;ve read, it used to be a difficult exam up until they broke the exam into two parts: CKA and CKAD. This happened around two years ago.
 The CKA is supposed to be the more difficult one of the two exams.</description>
     </item>

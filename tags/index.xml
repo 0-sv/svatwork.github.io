@@ -2,103 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on sv@work</title>
-    <link>https://svatwork.github.io/tags/</link>
+    <link>https://svatwork.com/tags/</link>
     <description>Recent content in Tags on sv@work</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Wed, 22 Apr 2020 11:18:25 +0700</lastBuildDate>
     
-	<atom:link href="https://svatwork.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://svatwork.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>career</title>
-      <link>https://svatwork.github.io/tags/career/</link>
+      <link>https://svatwork.com/tags/career/</link>
       <pubDate>Wed, 22 Apr 2020 11:18:25 +0700</pubDate>
       
-      <guid>https://svatwork.github.io/tags/career/</guid>
+      <guid>https://svatwork.com/tags/career/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cv</title>
-      <link>https://svatwork.github.io/tags/cv/</link>
+      <link>https://svatwork.com/tags/cv/</link>
       <pubDate>Wed, 22 Apr 2020 11:18:25 +0700</pubDate>
       
-      <guid>https://svatwork.github.io/tags/cv/</guid>
+      <guid>https://svatwork.com/tags/cv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>experience</title>
-      <link>https://svatwork.github.io/tags/experience/</link>
+      <link>https://svatwork.com/tags/experience/</link>
       <pubDate>Wed, 22 Apr 2020 11:18:25 +0700</pubDate>
       
-      <guid>https://svatwork.github.io/tags/experience/</guid>
+      <guid>https://svatwork.com/tags/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ansible</title>
-      <link>https://svatwork.github.io/tags/ansible/</link>
+      <link>https://svatwork.com/tags/ansible/</link>
       <pubDate>Tue, 07 Apr 2020 12:10:20 +0700</pubDate>
       
-      <guid>https://svatwork.github.io/tags/ansible/</guid>
+      <guid>https://svatwork.com/tags/ansible/</guid>
       <description></description>
     </item>
     
     <item>
       <title>aws</title>
-      <link>https://svatwork.github.io/tags/aws/</link>
+      <link>https://svatwork.com/tags/aws/</link>
       <pubDate>Tue, 07 Apr 2020 12:10:20 +0700</pubDate>
       
-      <guid>https://svatwork.github.io/tags/aws/</guid>
+      <guid>https://svatwork.com/tags/aws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>devops</title>
-      <link>https://svatwork.github.io/tags/devops/</link>
+      <link>https://svatwork.com/tags/devops/</link>
       <pubDate>Tue, 07 Apr 2020 12:10:20 +0700</pubDate>
       
-      <guid>https://svatwork.github.io/tags/devops/</guid>
+      <guid>https://svatwork.com/tags/devops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kubernetes</title>
-      <link>https://svatwork.github.io/tags/kubernetes/</link>
+      <link>https://svatwork.com/tags/kubernetes/</link>
       <pubDate>Tue, 07 Apr 2020 12:10:20 +0700</pubDate>
       
-      <guid>https://svatwork.github.io/tags/kubernetes/</guid>
+      <guid>https://svatwork.com/tags/kubernetes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>terraform</title>
-      <link>https://svatwork.github.io/tags/terraform/</link>
+      <link>https://svatwork.com/tags/terraform/</link>
       <pubDate>Tue, 07 Apr 2020 12:10:20 +0700</pubDate>
       
-      <guid>https://svatwork.github.io/tags/terraform/</guid>
+      <guid>https://svatwork.com/tags/terraform/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cka</title>
-      <link>https://svatwork.github.io/tags/cka/</link>
+      <link>https://svatwork.com/tags/cka/</link>
       <pubDate>Sun, 05 Apr 2020 15:45:25 +0700</pubDate>
       
-      <guid>https://svatwork.github.io/tags/cka/</guid>
+      <guid>https://svatwork.com/tags/cka/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cncf</title>
-      <link>https://svatwork.github.io/tags/cncf/</link>
+      <link>https://svatwork.com/tags/cncf/</link>
       <pubDate>Sun, 05 Apr 2020 15:45:25 +0700</pubDate>
       
-      <guid>https://svatwork.github.io/tags/cncf/</guid>
+      <guid>https://svatwork.com/tags/cncf/</guid>
       <description></description>
     </item>
     
