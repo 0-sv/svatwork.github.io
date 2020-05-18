@@ -7,24 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 09 May 2020 22:33:15 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2020 11:18:25 +0700</lastBuildDate>
     
 	<atom:link href="https://svatwork.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>aws</title>
-      <link>https://svatwork.com/tags/aws/</link>
-      <pubDate>Sat, 09 May 2020 22:33:15 +0700</pubDate>
-      
-      <guid>https://svatwork.com/tags/aws/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>career</title>
       <link>https://svatwork.com/tags/career/</link>
-      <pubDate>Sat, 09 May 2020 22:33:15 +0700</pubDate>
+      <pubDate>Wed, 22 Apr 2020 11:18:25 +0700</pubDate>
       
       <guid>https://svatwork.com/tags/career/</guid>
       <description></description>
@@ -33,7 +24,7 @@
     <item>
       <title>cv</title>
       <link>https://svatwork.com/tags/cv/</link>
-      <pubDate>Sat, 09 May 2020 22:33:15 +0700</pubDate>
+      <pubDate>Wed, 22 Apr 2020 11:18:25 +0700</pubDate>
       
       <guid>https://svatwork.com/tags/cv/</guid>
       <description></description>
@@ -42,7 +33,7 @@
     <item>
       <title>experience</title>
       <link>https://svatwork.com/tags/experience/</link>
-      <pubDate>Sat, 09 May 2020 22:33:15 +0700</pubDate>
+      <pubDate>Wed, 22 Apr 2020 11:18:25 +0700</pubDate>
       
       <guid>https://svatwork.com/tags/experience/</guid>
       <description></description>
@@ -54,6 +45,15 @@
       <pubDate>Tue, 07 Apr 2020 12:10:20 +0700</pubDate>
       
       <guid>https://svatwork.com/tags/ansible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aws</title>
+      <link>https://svatwork.com/tags/aws/</link>
+      <pubDate>Tue, 07 Apr 2020 12:10:20 +0700</pubDate>
+      
+      <guid>https://svatwork.com/tags/aws/</guid>
       <description></description>
     </item>
     

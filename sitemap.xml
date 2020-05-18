@@ -3,38 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://svatwork.com/tags/aws/</loc>
-    <lastmod>2020-05-09T22:33:15+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://svatwork.com/tags/career/</loc>
-    <lastmod>2020-05-09T22:33:15+07:00</lastmod>
+    <lastmod>2020-04-22T11:18:25+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://svatwork.com/tags/cv/</loc>
-    <lastmod>2020-05-09T22:33:15+07:00</lastmod>
+    <lastmod>2020-04-22T11:18:25+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://svatwork.com/tags/experience/</loc>
-    <lastmod>2020-05-09T22:33:15+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://svatwork.com/posts/my-aws-interview/</loc>
-    <lastmod>2020-05-09T22:33:15+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://svatwork.com/posts/</loc>
-    <lastmod>2020-05-09T22:33:15+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://svatwork.com/tags/</loc>
-    <lastmod>2020-05-09T22:33:15+07:00</lastmod>
+    <lastmod>2020-04-22T11:18:25+07:00</lastmod>
   </url>
   
   <url>
@@ -43,7 +23,22 @@
   </url>
   
   <url>
+    <loc>https://svatwork.com/posts/</loc>
+    <lastmod>2020-04-22T11:18:25+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svatwork.com/tags/</loc>
+    <lastmod>2020-04-22T11:18:25+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://svatwork.com/tags/ansible/</loc>
+    <lastmod>2020-04-07T12:10:20+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://svatwork.com/tags/aws/</loc>
     <lastmod>2020-04-07T12:10:20+07:00</lastmod>
   </url>
   
